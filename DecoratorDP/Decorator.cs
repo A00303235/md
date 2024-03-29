@@ -1,8 +1,8 @@
-public abstract class Decarator<T> : IComponent<T>
+public abstract class Decorator<T> : IComponent<T>
 {
 
     protected IComponent<T> component;
-    public Decarator (IComponent<T> comp){
+    public Decorator (IComponent<T> comp){
 
         component=comp;
         
