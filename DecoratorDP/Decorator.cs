@@ -9,6 +9,6 @@ public abstract class Decorator<T> : IComponent<T>
     }
     public virtual T GetText()
     {
-        throw new NotImplementedException();
+        return component.GetText();
     }
 }

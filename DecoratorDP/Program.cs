@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System.Data;
+
+IComponent<string> conComp = new ConcreteComponent();
+
+IComponent<string> plainDecorator= new PlainDecorator(conComp);
+Console.WriteLine(plainDecorator.GetText());
