@@ -17,3 +17,6 @@ Unhandled exception. System.NotImplementedException: The method or operation is 
    at Program.<Main>$(String[] args) in /workspaces/md/DecoratorDP/Program.cs:line 6
 
 Changed the 12th line of code "return component.GetText();" 
+
+Made UppercaseDecorator and Colordecorator by copying the code from the Plain Decorator and edited the code as required
+Edited the Program.cs file as required 
